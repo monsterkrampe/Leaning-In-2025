@@ -1,0 +1,17 @@
+name = "LeaningIn2025PossiblyInfiniteTrees"
+version = "0.1.0"
+defaultTargets = ["LeaningIn2025PossiblyInfiniteTrees"]
+
+[[lean_lib]]
+name = "LeaningIn2025PossiblyInfiniteTrees"
+
+[[require]]
+name = "BasicLeanDatastructures"
+git = "https://github.com/monsterkrampe/Basic-Lean-Datastructures.git"
+rev = "main"
+
+[[require]]
+name = "PossiblyInfiniteTrees"
+git = "https://github.com/monsterkrampe/Possibly-Infinite-Trees.git"
+rev = "main"
+

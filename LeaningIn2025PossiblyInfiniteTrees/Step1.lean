@@ -1,0 +1,6 @@
+def InfiniteList (α : Type u) : Type u := sorry
+
+def InfiniteList.take (l : InfiniteList α) (n : Nat) : List α := sorry
+
+theorem length_take (l : InfiniteList α) (n : Nat) : (l.take n).length = n := by sorry
+
