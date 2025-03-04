@@ -6,3 +6,5 @@ structure PossiblyInfiniteList (α : Type u) where
 
 def PossiblyInfiniteList.empty : PossiblyInfiniteList α := sorry
 
+/- #eval (PossiblyInfiniteList.empty (α := Nat)).infinite_list.take 5 -/
+
